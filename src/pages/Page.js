@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-const HomePage = () => <h1>Home Page</h1>;
 const UserProfilePage = ({ match }) => <div>{match.params.id}</div>;
 const UserPage = () => <h1>User Page</h1>;
 const UserAddPage = () => <h1>User Add Page</h1>;
@@ -20,4 +19,4 @@ const BrowseUserPage = ({ match }) => {
     </ul>
   );
 };
-export { HomePage, UserProfilePage, UserPage, UserAddPage, BrowseUserPage };
+export { UserProfilePage, UserPage, UserAddPage, BrowseUserPage };

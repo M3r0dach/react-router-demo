@@ -5,7 +5,7 @@ import {
   UserProfilePage,
   BrowseUserPage,
   UserAddPage
-} from "../page/Page";
+} from "../pages/Page";
 const UsersSubLayout = ({ match }) => (
   <div className="user-sub-layout">
     <aside>

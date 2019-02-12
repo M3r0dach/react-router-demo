@@ -1,8 +1,9 @@
 import PrimaryHeader from "../ui/PrimaryHeader";
 import UsersSubLayout from "./UsersSubLayout";
-import { HomePage } from "../page/Page";
+import HomePage from "../pages/HomePage";
 import React from "react";
 import { Route } from "react-router-dom";
+import LoginPage from "../pages/LoginPage";
 
 const PrimaryLayout = match => (
   <div className="primary-layout">
